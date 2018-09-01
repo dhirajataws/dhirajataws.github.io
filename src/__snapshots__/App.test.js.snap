@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App components  1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin: 8vw;
+}
+
+.c2 {
+  src: tile.jpg;
+  width: 100%;
+  z-index: 1;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  position: absolute;
+  width: 100%;
+  top: 75%;
+  height: 25%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-size: 5vmin;
+  color: white;
+}
+
+.c4 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  width: 15%;
+  height: 80%;
+  z-index: 3;
+}
+
+@media only screen and (min-width:320px) {
+  .c1 {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width:768px) {
+  .c1 {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width:992px) {
+  .c1 {
+    width: 33.33333333333333%;
+  }
+}
+
+@media only screen and (min-width:1200px) {
+  .c1 {
+    width: 33.33333333333333%;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+  >
+    <img
+      className="c2"
+      src="tile.jpg"
+    />
+    <div
+      className="c3"
+    >
+      <img
+        className="c4"
+        src="logo.png"
+      />
+      <div
+        className="c5"
+      >
+        Home and Away
+      </div>
+    </div>
+  </div>
+</div>
+`;

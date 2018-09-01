@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css","index.css"],"names":[],"mappings":"AAAA,UACA,qBAAuB,CCDvB,UACI,WAAY","file":"static/css/main.a8a4e421.css","sourcesContent":["html,body{\nbackground-color:black;\n}\n\n\n// WEBPACK FOOTER //\n// ./src/App.css","html,body{\n    height:auto;\n  }\n\n\n// WEBPACK FOOTER //\n// ./src/index.css"],"sourceRoot":""}

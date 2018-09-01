@@ -1,0 +1,57 @@
+Arguments: 
+  /Users/dhirajkumar/.nvm/versions/node/v8.2.1/bin/node /usr/local/Cellar/yarn/1.9.4/libexec/bin/yarn.js
+
+PATH: 
+  /Users/dhirajkumar/.nvm/versions/node/v8.2.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  8.2.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/dhirajkumar/styleme/styleme/package.json: Unexpected token } in JSON at position 677
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.9.4/libexec/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.9.4/libexec/lib/cli.js:92:30)
+      at /usr/local/Cellar/yarn/1.9.4/libexec/lib/cli.js:103:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "styleme",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "react": "^16.4.2",
+      "react-app-rewire-styled-components": "^3.0.2",
+      "react-app-rewired": "^1.5.2",
+      "react-dom": "^16.4.2",
+      "react-scripts": "1.1.5",
+      "react-test-renderer": "^16.1.1",
+      "styled-components": "^3.4.5"
+    },
+    "scripts": {
+      "start": "react-app-rewired start",
+      "build": "react-app-rewired build",
+      "test": "react-app-rewired test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+    "devDependencies": {
+      "enzyme": "^3.3.0",
+      "enzyme-adapter-react-16": "^1.1.1",
+      "enzyme-to-json": "^3.3.4",
+      "jest-styled-components": "^4.9.0",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

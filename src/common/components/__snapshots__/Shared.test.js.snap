@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LogoImg components  1`] = `
+.c0 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  width: 15%;
+  height: 80%;
+  z-index: 3;
+}
+
+<img
+  className="c0"
+/>
+`;

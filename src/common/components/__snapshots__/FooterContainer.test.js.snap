@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterContainer components  1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+  -ms-flex-pack: stretch;
+  justify-content: stretch;
+  position: absolute;
+  width: 100%;
+  top: 75%;
+  height: 25%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 2;
+}
+
+<div
+  className="c0"
+/>
+`;
