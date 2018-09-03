@@ -3,7 +3,7 @@ import './App.css';
 import { Container, addLogoName, addImage } from './common/components';
 import tile from './tile.jpg';
 
-const values = { xs: "6", md: "4", sm: "6", lg: "4" }
+const values = { xs: "6", md: "6", sm: "6", lg: "6" }
 
 const withLogo = addLogoName(values);
 

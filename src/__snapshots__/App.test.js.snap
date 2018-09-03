@@ -27,6 +27,7 @@ exports[`App components  1`] = `
 .c2 {
   src: tile.jpg;
   width: 100%;
+  height: 100%;
   z-index: 1;
 }
 
@@ -83,13 +84,13 @@ exports[`App components  1`] = `
 
 @media only screen and (min-width:992px) {
   .c1 {
-    width: 33.33333333333333%;
+    width: 50%;
   }
 }
 
 @media only screen and (min-width:1200px) {
   .c1 {
-    width: 33.33333333333333%;
+    width: 50%;
   }
 }
 

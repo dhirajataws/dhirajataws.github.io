@@ -23,14 +23,15 @@ margin:8vw;
 `;
 
 function getWidthString(span) {
-    if (!span) return;
-    let width = span / 12 * 100;
-    return `width: ${width}%; `;
+  if (!span) return;
+  let width = span / 12 * 100;
+  return `width: ${width}%; `;
 }
 
 const Img = styled.img`
 src:${props => props.src};
 width:100%;
+height:100%;
 z-index:1;
 `;
 
